@@ -1,0 +1,45 @@
+$pink-color:	#d857b1;
+$purple-color:#9b59b6;
+$title-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.main-slide{
+
+    background: linear-gradient(20deg,$pink-color 0%,$purple-color 100%);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+    .content-wrapper{
+        h1{
+            color: white;
+            font-family: $title-font;
+            font-size: 50px;
+            margin: 0;
+            font-weight: 100;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            color: #650061;
+            margin: 0;
+        }
+        .action{
+            display: inline;
+            padding: 10px 10px;
+            font-size: 24px;
+            text-align: center;
+            color: black;
+            
+
+
+
+
+        }
+    }
+}
